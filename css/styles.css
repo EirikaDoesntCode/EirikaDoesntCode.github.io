@@ -1,1 +1,7 @@
-
+.test {
+    background-color:darkcyan;
+    color: white;
+    border: auto auto 10px;
+    border-color: red;
+    text-align: center;
+}
