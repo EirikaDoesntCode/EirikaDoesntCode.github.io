@@ -1,0 +1,63 @@
+/*
+For Things that are likely to be repeated and consistant between pages like box backgrounds and colours
+
+Rainbow Delight Palette:
+Black Text
+- EA698B
+- D55D92
+- C05299
+- AC46A1
+White Text
+- 973AA8
+- 822FAF
+- 6D23B6
+- 6411AD
+- 571089
+- 47126B
+*/
+:root{
+    --RD1: #EA698B;
+    --RD2: #D55D92;
+    --RD3: #C05299;
+    --RD4: #AC46A1;
+    --RD5: #973AA8;
+    --RD6: #822FAF;
+    --RD7: #6D23B6;
+    --RD8: #6411AD;
+    --RD9: #571089;
+    --RD10: #47126B;
+    --page-background: rgb(2, 131, 170);
+    --text-background: rgb(108, 175, 196);
+    --text-colour-dark: rgb(20, 20, 20);
+    --text-colour-light: rgb(240, 240, 240);
+    --headings-colour: rgb(20, 20, 20);
+    --headings-background: rgb(142, 216, 238);
+    
+}
+
+/* head, body, footer{
+    /* background-color: var(--page-background); */
+    /* background-image: radial-gradient(var(--RD1), var(--RD2), var(--RD3), var(--RD4)); 
+} */
+
+html, body, head, footer{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    height: 10000px
+}
+
+.background {
+    background-image: linear-gradient(180deg, var(--RD1), var(--RD2), var(--RD3), var(--RD4));
+  
+    min-height: 100vh;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
