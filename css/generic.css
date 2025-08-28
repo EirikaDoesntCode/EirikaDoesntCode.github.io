@@ -47,17 +47,23 @@ html, body, head, footer{
 
 }
 
+html {
+    background: var(--RD7);
+}
+
 body{
-    height: 10000px
+    height: 10000px;
 }
 
 .background {
-    background-image: linear-gradient(180deg, var(--RD1), var(--RD2), var(--RD3), var(--RD4));
+    background: 
+        
+        linear-gradient(180deg, var(--RD1), var(--RD2), var(--RD3), var(--RD4)) ,
+        var(--RD2); /* Replaces the default colour of the page background, only visible behind image in edge cases on mobile*/
   
+
     min-height: 100vh;
     height: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 
   }
