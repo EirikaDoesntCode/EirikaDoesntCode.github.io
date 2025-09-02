@@ -44,6 +44,7 @@ html, body, head, footer{
     height: 100%;
     margin: 0;
     padding: 0;
+    justify-content: center;
 
 }
 
@@ -55,15 +56,36 @@ body{
     height: 10000px;
 }
 
+
 .background {
     background: 
         
         linear-gradient(180deg, var(--RD1), var(--RD2), var(--RD3), var(--RD4)) ,
-        var(--RD2); /* Replaces the default colour of the page background, only visible behind image in edge cases on mobile*/
-  
+        var(--RD2); /* Replaces the default colour of the page background, only visible behind image in edge cases on mobile */
+
 
     min-height: 100vh;
     height: auto;
 
 
   }
+
+  h1, h2, h3, h4, h5, h6{
+    text-align: center;
+  }
+
+.standard-box, .heading-box, .image-box{
+
+    background:
+        var(--RD6)
+
+        ;
+    
+    color: var(--text-colour-light);
+    max-width: 75%;
+    border-style: ridge;
+    border-width: 7px;
+    border-color: var(--RD9);
+
+
+}

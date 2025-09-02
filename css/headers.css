@@ -1,0 +1,27 @@
+.main-header{
+    border: 0;
+    padding: 0;
+    margin: 0;
+
+    position: fixed;
+
+    display : flex; /* Flexbox*/
+
+    flex-flow: row wrap; /* straight line, goes new row if no space */
+    justify-content: flex-end; /* right aligned */
+    justify-content: center;
+    min-width: 100%;
+    background: var(--RD9);
+    color: black;
+    
+}
+
+.main-header-item{
+    list-style: none;
+    padding: 10px;
+    margin: 0 3px;
+    background-color: var(--RD6);
+    border: 5px groove var(--RD8);
+    color: black;
+}
+
