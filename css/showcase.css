@@ -1,0 +1,46 @@
+.showcase-container{
+margin: auto 10%;
+border: 5px silver ridge;
+background:
+    var(--RD9)
+;
+
+}
+
+.showcase-item{
+    margin: 5%;
+    border: 4px white ridge;
+    background:
+        var(--RD7)
+    ;
+}
+
+.showcase-item-image, .showcase-item-heading, .showcase-item-description, .showcase-item-links{
+    text-align: center;
+    margin: 3px;
+    /* padding: 2px;
+    border: 2px white ridge; */
+}
+
+.showcase-item-image{
+    max-width: 5rem;
+    max-height: 5rem;
+    background-color: grey;
+    border: 0.2rem ridge black;
+    width: 100%;
+}
+
+.showcase-item-heading{
+    text-transform: uppercase;
+    color: var(--text-colour-light);
+
+}
+
+.showcase-item-description{
+    color: var(--text-colour-light);
+}
+
+.showcase-item-links{
+    list-style: none;
+    
+}

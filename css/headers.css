@@ -1,9 +1,11 @@
 .main-header{
-    border: 0;
+    border: 1;
     padding: 0;
-    margin: 0;
+    margin: 0px 0px 5px 0px;
+    border-color: silver;
+    border-style: none none ridge none;
 
-    position: fixed;
+    /* position: fixed; */
 
     display : flex; /* Flexbox*/
 
