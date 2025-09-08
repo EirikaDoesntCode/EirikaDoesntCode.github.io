@@ -31,6 +31,10 @@ background:
 }
 
 .showcase-item-heading{
+    position: sticky;
+    top: 52px;
+    z-index: 1;
+    background: var(--RD7);
     text-transform: uppercase;
     color: var(--text-colour-light);
 

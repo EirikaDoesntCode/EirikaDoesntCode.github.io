@@ -6,6 +6,9 @@
     border-style: none none ridge none;
 
     /* position: fixed; */
+    position: sticky;
+    top: 0;
+    z-index: 10;;
 
     display : flex; /* Flexbox*/
 
@@ -13,6 +16,7 @@
     justify-content: flex-end; /* right aligned */
     justify-content: center;
     min-width: 100%;
+    max-height: 4rem;
     background: var(--RD9);
     color: black;
     
