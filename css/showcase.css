@@ -7,6 +7,20 @@ background:
 
 }
 
+.gallery-body{
+    display: flex;
+}
+
+.gallery-left-column, .gallery-right-column, .gallery-center-column{
+    flex: 1;
+    /* display: flex; */
+    flex-direction: column;
+}
+
+.gallery-center-column{
+    flex: 5;
+}
+
 .showcase-item{
     margin: 5%;
     border: 4px white ridge;
